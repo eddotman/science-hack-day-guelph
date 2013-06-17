@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
+html, body, p, h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
+
+body {padding-top: 40px; padding-bottom: 40px; background: #eeeeee;}
+footer {padding:20px;}
+
+.bgdark {background: #2c3e50; color: #ffffff;}
+.bgsilver {background: #7f8c8d; color: #ffffff;}
+.bgorange {background: #e67e22; color: #ffffff;}
+.bgblue {background: #2980b9; color: #ffffff;}
+.bgred {background: #c0392b; color: #ffffff;}
+.bgwhite {background: #ffffff; color: #000000;}
+.noround {border-radius: 0;}
+.hugepad {padding-bottom:200px;padding-top:200px;}
+.medpad {padding-bottom:80px;padding-top:80px;}
+.nomargin {margin:0;}
+
+.dotlink a {text-decoration: none; color: #ffffff; border-bottom: 1px #ffffff dotted;}

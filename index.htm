@@ -8,12 +8,10 @@
 
     <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
     <script src="js/bootstrap.min.js"></script>
     <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
+  
     </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -36,7 +34,7 @@
           <div class="nav-collapse collapse">
 
             <ul class="nav">
-              <li class="active"><a href="#"><strong>Science Hack Day | Guelph</strong></a></li>
+              <li class="active"><a href="#">Science Hack Day | Guelph</a></li>
               <li><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#schedule">Schedule</a></li>
@@ -48,34 +46,26 @@
       </div>
     </div>
 
-    <div class="container">
-
      
-      <div class="jumbotron">
-        <img class="img-rounded" src="img/jhall_shd.png">
-        <h1>Science Hack Day | <strong>Guelph</strong></h1>
-        <br>
+      <div class="jumbotron bgdark noround text-center hugepad nomargin">
+        <h1>Science Hack Day | Guelph</h1>
         <p>"<strong>Science Hack Day</strong> brings together designers, developers, scientists, and other geeks in the same physical space for a brief but intense period of collaboration, hacking and building cool stuff."</p>
-        <br><a id="about"></a>
-        <p><a href="http://sciencehackday.com/" class="btn btn-primary btn-large">Learn more »</a></p>
-        
+        <br>
+        <p><a href="http://sciencehackday.com/" class="btn btn-success btn-large">Learn more »</a></p>
       </div>
-
-      <div class="panel">
-        <div class="panel-success">
-          <div class = "panel-heading">
-            <h3>Event Information</h3>
-          </div>
-          
-            <h3><strong>Date:</strong> 19-20 October 2013</h3>
-            <h3><strong>Location:</strong> Ed Video Gallery (40 Baker St., Guelph, ON)</h3>
-            <h3><strong>Food:</strong> All meals included</h3>
-            <h3><strong>Price:</strong> $0.00 for all attendees</h3>
-            <h3><strong>Attendees:</strong> Anyone and everyone with a passion for science!</h3>
-        </div>
+      <a id="about"></a>
+      <div class="jumbotron bgorange noround text-center nomargin">
+          <h2>Event Information</h2>
       </div>
-
-      <div class="row">
+      <div class="panel nomargin noround">
+        <h3><strong>Date:</strong> 19-20 October 2013</h3>
+        <h3><strong>Location:</strong> Ed Video Gallery (40 Baker St., Guelph, ON)</h3>
+        <h3><strong>Food:</strong> All meals included</h3>
+        <h3><strong>Price:</strong> $0.00 for all attendees</h3>
+        <h3><strong>Attendees:</strong> Anyone and everyone with a passion for science!</h3>
+      </div>
+    
+      <div class="row medpad">
         <div class="col-small-span-4">
           <h2>What is a Hack Day?</h2>
           <p>A Hack Day is when people come together to make awesome things! This means that, over the course of a weekend, you'll spend your time trying to invent, prototype and pitch an idea using <em>science</em>. </p>
@@ -90,41 +80,34 @@
         </div>
       </div>
 
-      <br><hr><br>
-
-      <div class="panel">
-        <div class="panel-danger">
-          <div class="panel-heading">
-            <h3>What will you do at Science Hack Day?</h3>
+      <div class="jumbotron bgred noround text-center nomargin">
+        <h2>What will you do at Science Hack Day?</h2>
+      </div>
+      <div class="panel nomargin medpad noround">
+        <div class="row">
+          <div class="col-small-span-4">
+            <h3><img src="img/glyphicons_043_group.png"> Create and share ideas</h3>
           </div>
-            <div class="row">
-             <div class="col-small-span-4">
-              <h3><img src="img/glyphicons_043_group.png"> Create and share ideas</h3>
-            </div>
-            <div class="col-small-span-4"> 
-              <h3><img src="img/glyphicons_054_clock.png"> Rapidly build prototypes</h3>
-            </div>
-            <div class="col-small-span-4"> 
-              <h3><img src="img/glyphicons_056_projector.png"> Pitch your cool results</h3>
-            </div>
+          <div class="col-small-span-4"> 
+            <h3><img src="img/glyphicons_054_clock.png"> Rapidly build prototypes</h3>
+          </div>
+          <div class="col-small-span-4"> 
+            <h3><img src="img/glyphicons_056_projector.png"> Pitch your cool results</h3>
           </div>
         </div>
       </div>
 
-      <br><hr><br>
-
-      <h1>So how do I sign up?</h1>
-      <h3>Registration will start in <strong>September</strong>. Follow <a href="http://www.twitter.com/eddotman">@eddotman</a> for updates.</h3>
+      <div class="jumbotron bgsilver dotlink noround text-center nomargin hugepad">
+        <h1>So how do I sign up?</h1>
+        <h3>Registration will start in <strong>September</strong>. Follow <a href="http://www.twitter.com/eddotman">@eddotman</a> for updates.</h3>
+      </div>
 
       <a id="schedule"></a>
-      <br><hr><br>
 
-      <div class="panel">
-        <div class="panel-info">
-          <div class="panel-heading">
-            <h3>Event Schedule</h3>
-          </div>
-      
+      <div class="jumbotron bgblue noround text-center nomargin">
+        <h2>Event Schedule</h2>
+      </div>
+      <div class="panel nomargin">
           <table class="table table-striped">
             <tr>
               <td><h3><strong>Time</strong></h3></td><td><h3><strong>Event</strong></h3></td>
@@ -160,36 +143,25 @@
               <td><h3>(Sun) 16:00</h3></td><td><h3>Closing announcements and prizes</h3></td>
             </tr>
           </table>
-
         </div>
+
+      <div class="jumbotron bgwhite noround text-center hugepad nomargin">
+        <h1>We are proud to have the support of:</h1>
+        <br>
+        <a href="http://www.edvideo.org/"><img width="300px" src="img/edvid.jpg"></a>
+        <a href="http://sciencehackday.com/"><img width="300px" src="img/shd_logo.png"></a>
+        <a href="http://uoguelph.ca/"><img width="300px" src="img/gecko.png"></a>
       </div>
 
-      <br><hr><br>
-
-      <h1>We are proud to have the support of:</h1>
-      <br>
-      <a href="http://www.edvideo.org/"><img width="300px" src="img/edvid.jpg"></a>
-      <a href="http://sciencehackday.com/"><img width="300px" src="img/shd_logo.png"></a>
-      
-      <br><br><hr><br>
-
-      <div class="panel">
-        <div class="panel-primary">
-          <div class="panel-heading">
-            <h3>Have any questions?</h3>
-          </div>
-          <h2 class="text-center"><img src="img/glyphicons_010_envelope.png"> ekim01 [at] uoguelph [dot] ca</h2>
-          <a id="contact"></a>
-        </div>
+      <div class="jumbotron noround text-center hugepad nomargin">
+        <h2>Have any questions?</h2>
+        <h2 class="text-center">Contact <a href="http://twitter.com/eddotman">@eddotman</a></h2>
+        <a id="contact"></a>
       </div>
-
-      <br><hr><br>
 
       <footer>
-        <p class="pull-right">Site created by <a href="http://www.edwardkim.name">Edward Kim</a></p>
-
+        <p class="pull-right">Site created by <a href="http://www.edwardkim.name">Edward Kim</a> </p>
       </footer>
 
-    </div> <!-- /container -->
 
 </body></html>

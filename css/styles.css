@@ -5,8 +5,10 @@ html, body, p, h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
 body {padding-top: 40px; padding-bottom: 40px; background: #eeeeee;}
 footer {padding:20px;}
 
+.title{background: url('../img/space.jpg') no-repeat; background-size:100% 100%; color: #ffffff;}
+
 .bgdark {background: #2c3e50; color: #ffffff;}
-.bgsilver {background: #7f8c8d; color: #ffffff;}
+.bgblack {background: #000000; color: #ffffff;}
 .bgorange {background: #e67e22; color: #ffffff;}
 .bgblue {background: #2980b9; color: #ffffff;}
 .bgred {background: #c0392b; color: #ffffff;}

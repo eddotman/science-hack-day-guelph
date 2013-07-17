@@ -9,7 +9,6 @@
     <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
-    <script src="js/bootstrap.min.js"></script>
     <style type="text/css">
   
     </style>
@@ -34,10 +33,12 @@
           <div class="nav-collapse collapse">
 
             <ul class="nav">
-              <li class="active"><a href="#">Science Hack Day | Guelph</a></li>
-              <li><a href="#">Home</a></li>
+              <li class="active"><a href="#top">Science Hack Day | Guelph</a></li>
+              <li><a href="#top">Home</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="#register">Register</a></li>
               <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
               <li><a href="#contact">Contact</a></li>
               <li><a href="#sponsors">Sponsors</a></li>
             </ul>
@@ -47,12 +48,15 @@
       </div>
     </div>
 
+      <a id="top"></a>
+
      
-      <div class="jumbotron bgdark noround text-center hugepad nomargin">
+      <div class="jumbotron noround text-center hugepad nomargin title">
         <h1>Science Hack Day | Guelph</h1>
         <p>"<strong>Science Hack Day</strong> brings together designers, developers, scientists, and other geeks in the same physical space for a brief but intense period of collaboration, hacking and building cool stuff."</p>
         <br>
-        <p><a href="http://sciencehackday.com/" class="btn btn-success btn-large">Learn more »</a></p>
+        <p><a href="http://sciencehackday.com/" class="btn btn-success btn-large">Learn more »</a> 
+        <a href="#register" class="btn btn-primary btn-large">Register now! »</a></p>
       </div>
       <a id="about"></a>
       <div class="jumbotron bgorange noround text-center nomargin">
@@ -98,9 +102,11 @@
         </div>
       </div>
 
-      <div class="jumbotron bgsilver dotlink noround text-center nomargin hugepad">
-        <h1>Interested in attending?</h1>
-        <h3>Registration will start in <strong>September</strong>. Follow <a href="http://www.twitter.com/eddotman">@eddotman</a> for updates.</h3>
+      <a id="register"></a>
+
+      <div class="jumbotron bgblack dotlink noround text-center nomargin hugepad">
+        <h1><a href="https://www.hackerleague.org/hackathons/science-hack-day-guelph">REGISTER NOW!</a></h1>
+        <p>(Registration system provided via <a href="https://www.hackerleague.org/">Hacker League</a>)</p>
       </div>
 
       <a id="schedule"></a>
@@ -145,7 +151,7 @@
             </tr>
           </table>
         </div>
-
+        <a id="sponsors"></a>
       <div class="jumbotron bgwhite noround text-center hugepad nomargin">
         <a id="sponsors"></a>
         <h1>We are proud to have the support of:</h1>
@@ -164,6 +170,17 @@
       <footer>
         <p class="pull-right">Site created by <a href="http://www.edwardkim.name">Edward Kim</a> </p>
       </footer>
+<<<<<<< HEAD:index.htm
 
+=======
+      
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.smooth-scroll.min.js"></script>
+      <script type="text/javascript"> 
+      $('.navbar a').smoothScroll();
+      $('.btn').smoothScroll();
+    </script>
+>>>>>>> origin/gh-pages:index.html
 
 </body></html>

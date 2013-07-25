@@ -2,20 +2,18 @@
 
 html, body, p, h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
 
-body {padding-top: 40px; padding-bottom: 40px; background: #eeeeee;}
+body {padding: 40px 0px; background: #eeeeee;}
+h2, p {padding: 15px;}
 footer {padding:20px;}
 
 .title{background: url('../img/space.jpg') no-repeat; background-size:100% 100%; color: #ffffff;}
 
-.bgdark {background: #2c3e50; color: #ffffff;}
 .bgblack {background: #000000; color: #ffffff;}
-.bgorange {background: #e67e22; color: #ffffff;}
-.bgblue {background: #2980b9; color: #ffffff;}
-.bgred {background: #c0392b; color: #ffffff;}
 .bgwhite {background: #ffffff; color: #000000;}
+.bgred {background: #c0392b; color: #ffffff;}
 .noround {border-radius: 0;}
 .hugepad {padding-bottom:200px;padding-top:200px;}
-.medpad {padding-bottom:80px;padding-top:80px;}
+.medpad {padding-bottom:100px;padding-top:80px;}
 .nomargin {margin:0;}
 
 .dotlink a {text-decoration: none; color: #ffffff; border-bottom: 1px #ffffff dotted;}

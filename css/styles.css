@@ -12,6 +12,7 @@ img {margin: 0px 20px;}
 .bgblack {background: #000000; color: #ffffff;}
 .bgwhite {background: #ffffff; color: #000000;}
 .bgred {background: #c0392b; color: #ffffff;}
+.bggrey {background: #eeeeee; color: #ffffff;}
 .noround {border-radius: 0;}
 .hugepad {padding-bottom:200px;padding-top:200px;}
 .medpad {padding-bottom:100px;padding-top:80px;}

@@ -2,7 +2,7 @@
 
 html, body, p, h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
 
-body {padding: 40px 0px; background: #eeeeee;}
+body {padding: 40px 0px; background: #FFF;}
 h2, p {padding: 15px;}
 footer {padding:20px;}
 img {margin: 0px 20px;}
@@ -12,10 +12,15 @@ img {margin: 0px 20px;}
 .bgblack {background: #000000; color: #ffffff;}
 .bgwhite {background: #ffffff; color: #000000;}
 .bgred {background: #c0392b; color: #ffffff;}
-.bggrey {background: #eeeeee; color: #ffffff;}
 .noround {border-radius: 0;}
 .hugepad {padding-bottom:200px;padding-top:200px;}
 .medpad {padding-bottom:100px;padding-top:80px;}
 .nomargin {margin:0;}
 
 .dotlink a {text-decoration: none; color: #ffffff; border-bottom: 1px #ffffff dotted;}
+
+/* Akram Changes*/
+.panel {
+	border: none;
+	box-shadow: none;
+}

@@ -2,7 +2,7 @@
 
 html, body, p, h1, h2, h3 {font-family: "Ubuntu", sans-serif;}
 
-body {padding: 40px 0px; background: #eeeeee;}
+body {padding: 40px 0px; background: #FFF;}
 h2, p {padding: 15px;}
 footer {padding:20px;}
 img {margin: 0px 20px;}
@@ -18,3 +18,9 @@ img {margin: 0px 20px;}
 .nomargin {margin:0;}
 
 .dotlink a {text-decoration: none; color: #ffffff; border-bottom: 1px #ffffff dotted;}
+
+/* Akram Changes*/
+.panel {
+	border: none;
+	box-shadow: none;
+}

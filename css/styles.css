@@ -7,7 +7,7 @@ h2, p {padding: 15px;}
 footer {padding:20px;}
 img {margin: 0px 20px;}
 
-.title{background: url('../img/space.jpg') no-repeat; background-size:100% 100%; color: #ffffff;}
+.title{background: url('../img/space.jpg') no-repeat; background-size:100% 100%; color: #ffffff; background-size: auto 100%;}
 
 .bgblack {background: #000000; color: #ffffff;}
 .bgwhite {background: #ffffff; color: #000000;}
